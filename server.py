@@ -3,7 +3,7 @@ import os
 
 # Set up server address and port
 SERVER_HOST = '127.0.0.1'  # Localhost
-SERVER_PORT = 65432        # Same port as the server
+SERVER_PORT = 5000        # Same port as the server
 
 # Create the client socket
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
